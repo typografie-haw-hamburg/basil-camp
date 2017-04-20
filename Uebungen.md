@@ -32,12 +32,16 @@ Schreibt ein Skript, das auf eurer Seite in regelmäßigen Abständen zehn Recht
 
 ### Ü 3.2 MINUS MAL MINUS
 Versucht, diese Seite nachzubauen.
+
 [ToDoro: Bild einfügen]
+
 Die Anzahl der Zeilen und Spalten ist euch überlassen.
 
 ### Ü 3.3 ERGIBT PLUS
 Minus mal Minus ergibt Plus! Verwandelt mit einem weiteren for loop nun jedes Minus- in ein Pluszeichen. Probiert die Verwandlung zuerst an einem Minuszeichen aus. Dabei hilft es, den Orientierungspunkt des Rechtecks mit b.rectMode(CENTER) zu zentrieren.
-_oder_
+
+#### oder
+
 Schreibt alternativ einen for loop, der eure Pluszeichen nacheinander transformiert. Dreht sie, vergrößert sie, verkleinert sie, verwendet die Funktionen, die ihr schon kennt. Könnt ihr eine räumliche Wirkung erzeugen? Am Ende soll ein spannendes Muster entstehen. Wer Minuszeichen bevorzugt, kann dies auch mit Minuszeichen tun.
 
 ### Ü 3.4 HEADLINE
