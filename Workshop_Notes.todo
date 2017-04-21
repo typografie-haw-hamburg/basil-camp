@@ -1,0 +1,68 @@
+Einführung Workshop:
+  - Vorstellung
+  - Was machen wir im Workshop?
+    - zweiter Tag
+  - Was ist basil.js?
+  - Was ist das Ziel? (Plakat)
+
+
+Einführung Basil:
+  - Sublime
+    - Scripts ausführen
+    - basil.js-Template
+  - Formen & Linien
+  - Kommentare
+  - Variablen
+  - Wiederholung
+    - for loop
+    - Transformationen
+  - Zufall
+  - Conditionals
+    - if then
+  - Text
+    - b.words ...
+    - Array
+    - b.bounds()
+    - b.typo()
+    - b.linkTextFrames()
+
+  - Zusätzliches
+    - while
+
+
+Intro 2. Tag:
+  - Bilder
+    - Daumenkino
+    - b.addPage()
+    - Skalierungssachen
+
+
+TiDo:
+  ☐ Automator Workflow Bilderschleife
+  ☐ Download Sublime vorbereiten
+  ☐ GoPro auspacken
+
+  ☐ Zufall funktioniert nicht bei images
+  ☐ Website machen
+
+
+ToDoro:
+  ☐ Texte
+  ☐ Übungen
+
+
+Offene Fragen:
+  - Essen (Heike fragen)
+  - Poster (Heike fragen)
+
+
+Feedback / Beobachtungen / Ideen:
+  - Zum Zeit sparen
+    - Wiki anlegen über alle Funktionen (vars, for-loops, Array etc.)
+    - Script, das alle relevanten Links öffnet
+    - Cheatsheet zum schnellen Nachschauen von Kram (z.B. rect(xPos, yPos, width, height))
+    - Wiki-Seite über Sublime-Shortcuts
+
+  - Teilnehmern die Möglichkeit geben, Parameter an gemeinsam erstellten Scripts zu ändern
+
+  - Roboter-Script ist zu zeitaufwendig und bringt zu wenig
