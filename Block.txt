@@ -31,12 +31,11 @@ B 4.5	prompt, confirm, b.isNumber
 
 
 
-B 5.1	array
-B 5.2	b.push, b.splice
-B 5.3	b.text, b.select
-B 5.4	b.words
-B 5.5	b.characters
-B 5.6	b.typo
+B 5.1	array, length
+B 5.2	array + for loop
+B 5.3	b.push, b.splice
+B 5.4	b.selecttion, b.words, b.characters
+B 5.5	b.typo
 
 
 
