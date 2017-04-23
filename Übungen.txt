@@ -12,7 +12,7 @@ Zeichnet eine Zickzack-Linie mit zwei Spitzen. Achtet darauf, dass sich die Lini
 
 
 
-Ü 1.3	Gezähmtes Gebirge
+//Ü 1.3	Gezähmtes Gebirge
 
 basil.js bietet auch eine Funktion, mit der man komplexere Formen wie Gebirge, mit einem Befehl zeichnen kann. Die entsprechende Funktion ruft ihr mit b.beginShape(), b.vertex() und b.endShape() auf. Lest in der reference auf basiljs.ch nach, wie diese Funktion genau funktioniert und versucht sie anzuwenden. Da mit der Funktion eine Form gezeichnet wird, könnt ihr auch die Füllung und Kontur der Form festlegen.
 
@@ -29,7 +29,7 @@ Schreibt ein Skript, das in der Mitte der Seite ein Quadrat zeichnet.
 
 
 
-Ü 2.2	«Robo, du Hast so schöne augen!»
+//Ü 2.2	«Robo, du Hast so schöne augen!»
 
 Zeichnte mit Hilfe eines Skripts Robos Gesicht und platziert es mittig auf der Seite. Versucht dabei, so gut es geht auf magic numbers zu verzichten und verwendet statt dessen Variablen.  Wieder ein Tipp: Startet mit der Variable der Gesichtsform, an der sich die weiteren Elemente orientieren.
 
@@ -107,7 +107,7 @@ Ergänzt euer Skrpit nun noch mit einer if-Abfrage: werden die Recktecke in der 
 
 
 
-Ü 4.5	Denkaufgabe
+//Ü 4.5	Denkaufgabe
 Wie könnte man einen Code schreiben, der jedes zweite Reckteck, das generiert wird, blau färbt und den übrigen eine blaue Kontur gibt?
 
 
@@ -147,7 +147,7 @@ Lasst nun einen Loop über den Text laufen und für jedes Wort eine zufällige S
 
 
 
-Ü 5.6	b.robo
+//Ü 5.6	b.robo
 
 Zerlegt euren Text nun auch noch in einzelne Buchstaben. Immer wenn ein Wort den Buchstaben r enthält, soll mit diesem etwas passieren – ihr habt die Wahl. 
 
@@ -174,7 +174,7 @@ Dort gibt es ein Beispiel mit dem Namen linkTextFrames. Seht euch das Skript an 
 
 
 
-Ü 6.3	Line Text
+//Ü 6.3	Line Text
 
 Neben b.words() und b.characters() gibt es auch noch die Funktion b.line(), die einen Text Zeile für Zeile abtastet.  Schreibt ein Skript, das den Text vertikal skaliert. Das Typo-Cheatsheet hilft wieder gerne. Verändert das Skript nun so, dass der Grad der Skalierung mit jeder Zeile zunimmt. Was kann man noch mit dem Text anstellen?
 
