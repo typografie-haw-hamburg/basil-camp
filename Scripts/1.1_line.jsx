@@ -1,0 +1,1 @@
+﻿#includepath "~/Documents/;%USERPROFILE%Documents";#include "basiljs/bundle/basil.js";function draw() {  b.clear(b.doc());  b.units(b.MM);  b.noFill();  b.line(10, 10, 100, 100)}b.go();
