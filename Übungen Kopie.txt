@@ -1,0 +1,165 @@
+ÜBUNG	1
+
+Ü 1.1	Robo’s tits
+Gerade haben wir wunderschöne Brüste gebaut. Konstruiert nun die Brüste eines Roboters und färbt sie nach euren Vorstellungen ein. Kleiner Tipp: sie sind auf jeden Fall eckig!
+
+Ü 1.2	Romantisches Gebirge
+Zeichnet eine Zickzack-Linie mit zwei Spitzen. Achtet darauf, dass sich die Linien an den Gipfeln und in den Tälern genau treffen.
+
+Ü 1.3	Gezähmtes Gebirge
+basil.js bietet auch eine Funktion, mit der man komplexere Formen wie Gebirge, mit einem Befehl zeichnen kann. Die entsprechende Funktion ruft ihr mit b.beginShape(), b.vertex() und b.endShape() auf. Lest in der reference auf basiljs.ch nach, wie diese Funktion genau funktioniert und versucht sie anzuwenden. Da mit der Funktion eine Form gezeichnet wird, könnt ihr auch die Füllung und Kontur der Form festlegen.
+
+
+
+
+ÜBUNG	2
+
+Ü 2.1	be square
+Schreibt ein Skript, das in der Mitte der Seite ein Quadrat zeichnet.
+
+Ü 2.2	«Robo, du Hast so schöne augen!»
+Zeichnte mit Hilfe eines Skripts Robos Gesicht und platziert es mittig auf der Seite. Versucht dabei, so gut es geht auf magic numbers zu verzichten und verwendet statt dessen Variablen.  Wieder ein Tipp: Startet mit der Variable der Gesichtsform, an der sich die weiteren Elemente orientieren.
+
+Ü 2.3	typo Teaser
+Fügt in euer Skript folgenden Code ein und seht was passiert: 
+
+var myText = "I LOVE ROBO"; var xPos = 20; var yPos = 20; var widthTextframe = 150; var heightTextframe = 30; b.text(myText, xPos, yPos, widthTextframe, heightTextframe);
+
+Achtung: jeder Variablenname darf in einem Skript nur einmal vorkommen. Falls ihr in eurem Skript bereits Variablen mit den Namen deklariert habt, passt ihr einfach den Code oben an.
+
+
+
+
+ÜBUNG 	3
+
+Ü 3.1	Minus
+Schreibt ein Skript, das auf eurer Seite in regelmäßigen Abständen zehn Rechtecke neben- oder untereinander zeichnet. Die Rechtecke sollen die Form eines Minuszeichen haben.
+
+Ü 3.2	Minus mal Minus 
+Versucht, diese Seite nachzubauen.  Die Anzahl der Zeilen und Spalten ist euch überlassen.	
+						
+Ü 3.3	ergibt Plus
+Minus mal Minus ergibt Plus! Verwandelt mit einem weiteren for loop nun jedes Minus- in ein Pluszeichen. Probiert die Verwandlung zuerst an einem Minuszeichen aus. Dabei hilft es, den Orientierungspunkt des Rechtecks mit  b.rectMode(CENTER) zu zentrieren.
+
+oder 
+
+Schreibt alternativ einen for loop, der eure Pluszeichen nacheinander transformiert. Dreht sie, vergrößert sie, verkleinert sie, verwendet die Funktionen, die ihr schon kennt. Könnt ihr eine räumliche Wirkung erzeugen? Am Ende soll ein spannendes Muster entstehen. Wer Minuszeichen bevorzugt, kann dies auch mit Minuszeichen tun.
+
+Ü 3.4	Headline
+Gebt eurer Seite noch einen Namen, den ihr natürlich per Skript wie bei der letzten Übung auf der Seite platzieren lasst. Ändert diesmal mit b.textSize() und b.textFont() das Aussehen der Überschrift. Wie ihr genau die Funktionen anwendet, ist in der reference von basil.js erklärt.
+
+
+
+
+ÜBUNG	4
+
+Ü 4.1 	Random rectangle
+Schreibt ein Skript, das auf eurer Seite zufällig zehn gleich große Rechtecke platziert. 
+
+Ü 4.2 	Random rectangle Reloaded
+Schreibt ein Skript, das auf eurer Seite zufällig zehn Rechtecke platziert, denen eine zufällige Größe und Farbe zugeordnet werden. 
+
+Ü 4.3	PROMpt
+Verändert euer Skript so, dass ihr mit einer prompt-Abfrage bestimmt, wie viele Rechtecke in eurem Dokument gezeichnet werden. Ein Tipp: hierzu benötigt ihr unbedingt eine Variable.
+
+Ü 4.4	If 
+Ergänzt euer Skrpit nun noch mit einer if-Abfrage: werden die Recktecke in der oberen Hälfte der Seite gezeichnet, sieht man nur ihre Kontur. Stehen sie in der unteren Häfte, haben sie keine Kontor, dafür aber eine Flächenfarbe. Achtet bei der Bestimmung der Postition auf den richtigen Modus der Rechtecke mit b.rectMode(mode).
+
+Ü 4.5	Denkaufgabe
+Wie könnte man einen Code schreiben, der jedes zweite Reckteck, das generiert wird, blau färbt und den übrigen eine blaue Kontur gibt?
+
+
+
+
+ÜBUNG 	5
+
+Ü 5.1	array
+Deklariert in einem Skript fünf verschiedene Farben und speichert diese in einem Array. Gebt mit  b.println()  die Anzahl der Farben und den Namen der ersten Farbe eures Arrays in der Konsole aus.
+
+Ü 5.2	Random Plus array
+Lasst nun ein Rechteck in der Mitte der Seite zeichnen, das mit einer zufällig gewählten Farbe gefüllt wird. Dazu verwendet ihr euren Farb-Array und lasst eine Zahl auswürfeln, die ihr als Index für die Array-Abfrage verwendet.
+
+Ü 5.3	b.lotto
+Schreibt ein Script, dass zufällig sechs Lottozahlen auswürfelt und in sechs Textrahmen schreibt. Ganz klassisch spielen wir 6 aus 49. Dabei müsst ihr darauf achten, dass eine Zahl nicht zwei mal ausgesucht werden kann. 
+
+Ü 5.4	b.Text
+Kopiert einen der Texte, die ihr unter XX findet, in euer Dokument und wählt ihn aus.  Schreibt nun ein Skript, das den ausgewählten Textrahmen erkennt und den Text in seine einzelne Wörter unterteilt. Wie viele Wörter kommen in dem Text vor?
+
+Ü 5.5	b.typo 
+Lasst nun einen Loop über den Text laufen und für jedes Wort eine zufällige Schriftgröße auswürfel. Dazu verwedet ihr am besten die Funktion b.typo(pointSize). Im Typo-Cheatsheet sind noch mehr Funktionen aufgelistet. Sucht euch eine weitere aus und probiert, sie anzuwenden.
+
+Ü 5.6	b.robo
+Zerlegt euren Text nun auch noch in einzelne Buchstaben. Immer wenn ein Wort den Buchstaben r enthält, soll mit diesem etwas passieren – ihr habt die Wahl. 
+
+
+
+
+ÜBUNG 	6
+
+Ü 6.1	Load Text
+Ladet mit basil.js das Text-file code of love in euer Dokument, wie wir es gerade gemeinsam getan habe. Platziert ihn nach eurer Lust und Laune in dem Dokument und formatiert ihn mit der Funktion b.textAlign(alignMe) zum Blocksatz. Was in die Klammer muss (und kann), findet ihr natürlich in der reference von basil.js.
+
+Ü 6.2	Link text
+Im Package von basil.js sind auch Beispielskirpte dabei. Die findet ihr in InDesign unter 
+
+	Hilfsprogramme → Skripte → basiljs → examples. 
+
+Dort gibt es ein Beispiel mit dem Namen linkTextFrames. Seht euch das Skript an und versucht, es auf euer Skript zu übertragen. Damit das funktionert, müsst ihr zunächst euren vorhanden Textrahmen so verkleinern, das dass Übersatztext entsteht. Wer will, kann auch mehr als zwei Textrahmen erstellen.
+
+Ü 6.3	Line Text
+Neben b.words() und b.characters() gibt es auch noch die Funktion b.line(), die einen Text Zeile für Zeile abtastet.  Schreibt ein Skript, das den Text vertikal skaliert. Das Typo-Cheatsheet hilft wieder gerne. Verändert das Skript nun so, dass der Grad der Skalierung mit jeder Zeile zunimmt. Was kann man noch mit dem Text anstellen?
+
+Ü 6.3	Love Text
+Teilt nun den Text wieder in seine Wörter. Peanuts? Dann das nächste Level:  Schreibt ein Skript, das mit einer Linie jedes you, das in dem Text vorkommt, mit dem folgenden you verbindet. Am Ende soll sozusagen eine «you-Kette» durch den Text laufen. Ihr könnt die Funktion b.startsWith() verwenden, oder mit contents arbeiten.  Und der letzte Tip für heute: mit b.bounds() macht das richtig Spaß. Lovely! 
+
+	hihi, dazu hören wir uns den song «code of love» an. 
+
+
+
+
+
+SPANDAU BALLET – CODE OF LOVE
+He put so much into her life
+She took so much out of his
+It was a crucial assignment
+No one ever asked for this
+It was a little confusin'
+He thought, he knew what to do
+But now they're walkin' in silence
+Little girl and soldier blue
+Well, she wrote you a song, sayin' that she approved
+But you didn't understand
+And when love comes along, it's just a catcher in the rye
+It's hard to make those long term plans
+Well, it's the code of love
+You don't understand her
+Well, it's the code of love
+You could never ask for more
+You could never ask for more
+They made a certain agreement
+He's bound to do what he's told
+He ran back home with the message
+Screwed up in a pocket cold
+She sat at home with her reason
+A sour note and a tear
+But love comes home for the season
+Breakin' down the walls of fears
+Well, she wrote you a song sayin' that she approved
+But you didn't understand
+And when love comes along, it's just a catcher in the rye
+It's hard to make those long term plans
+Well, it's the code of love
+You don't understand her
+Well, it's the code of love
+You could never ask for more
+You could never ask for more
+Well, it's the code of love
+You don't understand her
+Well, it's the code of love
+You don't understand her
+Code of love
+Code of love
+Code of love
+
+
+
