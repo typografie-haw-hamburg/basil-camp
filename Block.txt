@@ -41,6 +41,7 @@ B 5.6.1	b.typo
 B 5.6.2	b.typo + random
 
 
+
 B 6.1	b.loadText
 B 6.2	b.bounds
 B 6.3.1	b.map
