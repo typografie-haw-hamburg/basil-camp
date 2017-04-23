@@ -33,15 +33,18 @@ B 4.5	prompt, confirm, b.isNumber
 
 B 5.1	array, length
 B 5.2	array + for loop
-B 5.3	b.push, b.splice
-B 5.4	b.selecttion, b.words, b.characters
-B 5.5	b.typo
-
+B 5.3.1	b.push
+B 5.3.2	b.splice
+B 5.4	b.text
+B 5.5	b.selection, b.words, b.characters
+B 5.6.1	b.typo
+B 5.6.2	b.typo + random
 
 
 B 6.1	b.loadText
-B 6.2	b.map
-B 6.3	b.bounds
+B 6.2	b.bounds
+B 6.3.1	b.map
+B 6.3.2	b.bounds + b.map + b.typo
 B 6.4	b.startsWith, contents
 
 
