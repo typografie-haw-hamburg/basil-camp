@@ -5,16 +5,12 @@ function draw() {
 
   b.clear(b.doc());
   b.units(b.MM);
+  b.rectMode(b.CENTER);
 
   // textfile must be saved in data
   var content = b.loadString("Ahnenforschung.txt");
 
-  var tfX = 10;
-  var tfY = 10;
-  var tfWidth = b.width - 2*tfX;
-  var tfHeigth = b.height - 2*tfY;
-
-  b.text(content, tfX, tfY, tfWidth, tfHeigth);
+  b.text(content, b.width / 2, b.height / 2, 200, 250);
 }
 
 b.go();

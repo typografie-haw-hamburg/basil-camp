@@ -1,0 +1,80 @@
+Einführung Workshop:
+  - Vorstellung
+  - Was machen wir im Workshop?
+    - zweiter Tag
+  - Was ist basil.js?
+    - Programmieren und Selbermachen
+  - Was ist das Ziel? (Plakat)
+
+
+Einführung Basil:
+  - Sublime
+    - Scripts ausführen
+    - Konsole
+    - basil.js-Template
+Block 1:
+  - Formen & Linien
+    B 1.1  b.line
+    B 1.2  b.rect
+    B 1.3  b.ellipse, b.color
+    B 1.4  b.rectMode
+  - basil.js Reference
+  - Kommentare
+
+Block 2:
+  - Variablen
+    B 2.1  var + b.ellipse
+    B 2.2  b.beginShape, b.endShape
+    B 2.3  b.width, b.height
+    B 2.4  rechnen mit den variablen?
+Block 3:
+  - Wiederholung
+    B 3.1  foor loop (print numbers)
+    B 3.2  food loop (draw rects)
+    - for loop
+  - Transformationen
+    B 3.3  b.radians, b.rotate + b.rect
+    B 3.4  b.scale
+    B 3.5  b.opacity
+      - return
+Block 4:
+  - Zufall
+    B 4.1  b.random, b.floor, b.ceil
+    B 4.2  random shapes
+    B 4.3  random colors
+  - Conditionals
+    - if then
+    B 4.4  if then rot/blau
+    B 4.5  if then seitenhöhe
+  - User Input
+    B 4.5  prompt, confirm, b.isNumber
+Block 5:
+  - Array
+    B 5.1  array, length
+    B 5.2  array + for loop
+    B 5.3.1  array.push()
+    B 5.3.2  array.splice()
+  - Text
+    - b.words ...
+    - b.typo()
+    B 5.4  b.text
+    B 5.5.1  b.typo
+      - CheatSheet
+    B 5.5.2  b.typo mehrere Frames
+Block 6:
+    B 6.1  b.loadText
+    B 6.2  b.words (+ b.selection) .length    var thirdWords = words[2].contents;
+    B 6.2  b.words  spezifisches Wort verändern
+    B 6.3  b.words + for-loop -> random words
+    B 6.2  b.bounds Punkte
+    B 6.2  b.bounds Rectangle
+    B 6.3  b.bounds Kreise
+      - b.inspect()
+      - Ausblick der Möglichkeiten
+    B 6.x  contents
+      - contents ==
+      - b.startsWith()
+Block 7:
+    B 7.1  b.image
+    B 7.2  Bilder skalieren
+    B 7.3  Daumenkino

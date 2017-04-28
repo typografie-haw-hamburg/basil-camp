@@ -12,7 +12,11 @@ function draw() {
 
   var randomColor = b.color(randomR, randomG, randomB);
 
-  b.println(randomR + "/" + randomG + "/" + randomB)
+  b.println(randomR + "/" + randomG + "/" + randomB);
+
+  b.fill(randomColor);
+  b.rect(30, 60, 40, 40);
+
 }
 
 b.go();

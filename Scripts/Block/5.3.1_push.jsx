@@ -8,11 +8,13 @@ function draw() {
 
   var birds = ["Meise", "Elster", "Goldammer", "Amsel"];
 
+  alert(birds);
+
   birds.push("Rabe");
 
-  for(var i=0; i < birds.length; i++){
-    b.println(birds[i]);
-  }
+  alert(birds);
+
+
 }
 
 b.go();

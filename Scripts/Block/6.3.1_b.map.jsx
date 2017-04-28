@@ -21,7 +21,6 @@ function draw() {
 
 
   for(var i = 0; i < 14; i++) {
-    b.ellipse(xPos + distance*i, yPos, dia, dia);
 
     var inputValue = xPos + distance*i;
     var minXPos = 0;
@@ -34,6 +33,7 @@ function draw() {
     var myColorNew = b.color(rValue, gValueNew, bValue);
     b.fill(myColorNew);
 
+    b.ellipse(xPos + distance*i, yPos, dia, dia);
   }
 
 

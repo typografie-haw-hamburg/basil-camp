@@ -11,8 +11,8 @@ function draw() {
   var words = b.words(textFrame);
   var chars = b.characters(textFrame);
 
-  b.println("In dem Textfeld stehen " + words.length + " Woerter")
-  b.println("...aus " + chars.length + " Zeichen.")
+  alert("In dem Textfeld stehen " + words.length + " Woerter");
+  alert("...aus " + chars.length + " Zeichen.");
 
 
 }

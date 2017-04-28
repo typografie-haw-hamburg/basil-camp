@@ -13,11 +13,11 @@ function draw() {
   var xPos = b.width/2;
   var yPos = 10;
   var dia = 15;
-  var factor = 25;
+  var distance = 25;
 
   for (var i = 0; i < 10; i++) {
     b.rotate(angle);
-    b.rect(xPos, yPos + i*factor, dia, dia);
+    b.rect(xPos, yPos + i * distance, dia, dia);
   }
 
 }

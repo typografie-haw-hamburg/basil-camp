@@ -14,16 +14,11 @@ function draw() {
   for (var i = 0; i < chars.length; i++){
     var randomPointsize = b.random (10, 20);
 
-    var randomBooleanValue = b.random (1);
-    if(randomBooleanValue > 0.5){
-      var randomBoolean = true;
-    }
-    else {
-      var randomBoolean = false;
+    if(b.random(1) > 0.5){
+      b.typo(chars[i], 'underline', true);
     }
 
     b.typo(chars[i], 'pointSize', randomPointsize);
-    b.typo(chars[i], 'underline', randomBoolean);
   }
 
 }

@@ -5,7 +5,6 @@ function draw() {
 
   b.clear(b.doc());
   b.units(b.MM);
-  b.noFill();
 
   b.line(10, 10, 100, 100)
 }

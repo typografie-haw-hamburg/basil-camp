@@ -5,7 +5,7 @@ function draw() {
 
   b.clear(b.doc());
   b.units(b.MM);
-  b.noFill();
+  b.noStroke();
   b.rectMode(b.CENTER);
 
   var xPos = b.width/2;
