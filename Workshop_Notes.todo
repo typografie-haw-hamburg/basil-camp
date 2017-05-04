@@ -57,6 +57,7 @@ ToDos:
 
 TiDo:
   ☐ NASA Fotos Mondlandung an Doro schicken
+  ☐ Fotos Ausstellung (für die Einführung) von Heike
 
   ☐ Website
   ☐ Cheatsheet -> Rect, Line, Ellipse, b.text, for, if else
@@ -73,6 +74,7 @@ TiDo:
   ☐ b.text muss auf b.rectMode reagieren
   ☐ b.printDoc()
   ☐ b.rtfm("b.rect()")
+  ☐ b.close bei b.endShape statt b.beginShape
 
 
 

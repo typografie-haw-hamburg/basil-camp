@@ -15,6 +15,7 @@ function draw() {
 
   b.println("one is " + one);
   b.println("two is " + two);
+
   b.println("twoRound is " + twoRound);
   b.println("twoFloor is " + twoFloor);
   b.println("twoCeil is " + twoCeil);

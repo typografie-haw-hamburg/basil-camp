@@ -8,10 +8,10 @@ function draw() {
   var words = b.words(textFrame);
   var chars = b.characters(textFrame);
 
-  // zeigt nur das Wort-Objekt
+  // falsch: zeigt nur das Wort-Objekt
   alert(words[3]);
 
-  // zeigt den String eines Worts
+  // richtig: zeigt den String eines Worts
   alert(words[3].contents);
 
   var myWord = words[5];
