@@ -6,13 +6,15 @@ function draw() {
   b.clear(b.doc());
   b.units(b.MM);
 
-  var birds = ["Meise", "Elster", "Goldammer", "Amsel"];
+  // Sitznachbarn
+  var neighbors = ["Doro", "Timo", "Heike", "Peter", "Almut"];
 
-  birds.splice(1, 2);
+  alert(neighbors);
 
-  for(var i=0; i < birds.length; i++){
-    b.println(birds[i]);
-  }
+  neighbors.splice(2, 1);
+
+  alert(neighbors);
+
 }
 
 b.go();

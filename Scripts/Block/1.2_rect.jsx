@@ -7,6 +7,6 @@ function draw() {
   b.units(b.MM);
   b.noFill();
 
-  b.rect(10, 10, 100, 100)
+  b.rect(40, 80, 100, 100);
 }
 b.go();

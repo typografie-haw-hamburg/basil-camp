@@ -5,16 +5,12 @@ function draw() {
 
   b.clear(b.doc());
   b.units(b.MM);
+  b.noFill();
 
-  // Sitznachbarn
-  var neighbors = ["Doro", "Timo", "Heike", "Peter"];
+  var firstName = "Timo";
+  var lastName = "Rychert";
 
-  b.println(neighbors);
-
-  b.println(neighbors[1]);
-
-  b.println(neighbors.length);
-
+  alert("Hi, my name is " + firstName + " " + lastName);
 }
 
 b.go();

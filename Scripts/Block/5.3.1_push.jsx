@@ -6,14 +6,14 @@ function draw() {
   b.clear(b.doc());
   b.units(b.MM);
 
-  var birds = ["Meise", "Elster", "Goldammer", "Amsel"];
+  // Sitznachbarn
+  var neighbors = ["Doro", "Timo", "Heike", "Peter"];
 
-  alert(birds);
+  alert(neighbors);
 
-  birds.push("Rabe");
+  neighbors.push("Almut");
 
-  alert(birds);
-
+  alert(neighbors);
 
 }
 

@@ -5,14 +5,12 @@ function draw() {
 
   b.clear(b.doc());
   b.units(b.MM);
+  b.noFill();
 
-  // Sitznachbarn
-  var birds = ["Meise", "Elster", "Goldammer", "Amsel"];
+  var width = b.round(b.width);
+  var height = b.round(b.height);
 
-  for(var i=0; i < birds.length; i++){
-    alert(birds[i]);
-  }
-
+  alert("Die Seite ist " + width + " mm breit und " + height + " mm hoch.");
 }
 
 b.go();

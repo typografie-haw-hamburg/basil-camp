@@ -6,15 +6,14 @@ function draw() {
   b.clear(b.doc());
   b.units(b.MM);
 
-  // Sitznachbarn
-  var neighbors = ["Doro", "Timo", "Heike", "Peter"];
+  var myNumbers = [];
 
-  b.println(neighbors);
+  for (var i = 0; i < 6; i++) {
+    var newNumber = b.random(1, 49);
+    myNumbers.push(newNumber);
+  }
 
-  b.println(neighbors[1]);
-
-  b.println(neighbors.length);
+  alert(myNumbers);
 
 }
-
 b.go();

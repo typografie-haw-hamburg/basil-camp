@@ -7,12 +7,12 @@ function draw() {
   b.units(b.MM);
   b.noFill();
 
-  var xPos = 80;
-  var yPos = 100;
-  var width = 50;
-  var height = 70;
+  var xPos = 100;
+  var radius = 80;
 
-  b.ellipse(xPos, yPos, width, height);
+  b.ellipse(xPos, 0, radius, radius);
+  b.ellipse(xPos, 70, radius, radius);
+  b.ellipse(xPos, 140, radius, radius);
 }
 
 b.go();

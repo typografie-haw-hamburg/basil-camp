@@ -9,11 +9,9 @@ function draw() {
   // Sitznachbarn
   var neighbors = ["Doro", "Timo", "Heike", "Peter"];
 
-  b.println(neighbors);
-
-  b.println(neighbors[1]);
-
-  b.println(neighbors.length);
+  for(var i = 0; i < neighbors.length; i++) {
+    alert(neighbors[i]);
+  }
 
 }
 

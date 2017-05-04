@@ -7,17 +7,17 @@ function draw() {
   b.units(b.MM);
 
   var one = b.random(10);
-  var two = b.random(24,38);
+  var two = b.random(24, 38);
 
-  var three = b.round(two);
-  var four = b.floor(two);
-  var five = b.ceil(two);
+  var twoRound = b.round(two);
+  var twoFloor = b.floor(two);
+  var twoCeil = b.ceil(two);
 
   b.println("one is " + one);
   b.println("two is " + two);
-  b.println("three is " + three);
-  b.println("four is " + four);
-  b.println("five is " + five);
+  b.println("twoRound is " + twoRound);
+  b.println("twoFloor is " + twoFloor);
+  b.println("twoCeil is " + twoCeil);
 
 }
 

@@ -3,17 +3,13 @@
 
 function draw() {
 
-  //b.clear(b.doc());
-  b.units(b.MM);
-
   var textFrame = b.selection();
 
   var words = b.words(textFrame);
   var chars = b.characters(textFrame);
 
-  alert("In dem Textfeld stehen " + words.length + " Woerter");
-  alert("...aus " + chars.length + " Zeichen.");
-
+  alert("In dem Textfeld stehen " + words.length + " Wörter …");
+  alert("… aus " + chars.length + " Zeichen.");
 
 }
 

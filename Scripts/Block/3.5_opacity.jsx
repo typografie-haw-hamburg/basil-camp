@@ -7,7 +7,7 @@ function draw() {
   b.units(b.MM);
   b.rectMode(b.CENTER);
 
-  var xPos = b.width/2;
+  var xPos = b.width / 2;
   var yPos = 10;
   var dia = 15;
   var distance = 25;

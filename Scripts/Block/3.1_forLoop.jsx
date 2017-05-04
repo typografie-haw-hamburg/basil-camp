@@ -8,7 +8,7 @@ function draw() {
   b.noFill();
 
   for (var i = 0; i < 10; i++) {
-    b.println(i);
+    b.println("i ist " + i);
   }
 
 }

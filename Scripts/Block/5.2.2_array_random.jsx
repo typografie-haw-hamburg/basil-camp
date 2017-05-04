@@ -9,12 +9,11 @@ function draw() {
   // Sitznachbarn
   var neighbors = ["Doro", "Timo", "Heike", "Peter"];
 
-  b.println(neighbors);
+  var randomIndex = b.floor(b.random(0, neighbors.length));
 
-  b.println(neighbors[1]);
+  var randomPerson = neighbors[randomIndex];
 
-  b.println(neighbors.length);
-
+  alert("Die zufällig auserwählte Person ist: " + randomPerson);
 }
 
 b.go();

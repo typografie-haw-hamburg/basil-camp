@@ -8,6 +8,7 @@ Einführung Workshop:
 
 Einführung Basil:
   - Sublime
+    - einrichten
     - Scripts ausführen
     - basil.js-Template
   - Formen & Linien
@@ -36,15 +37,42 @@ Intro 2. Tag:
     - b.addPage()
     - Skalierungssachen
 
+Sachen, die wir erklären müssen:
+  ☐ Koordinatensystem
+  ☐ Script wird von oben nach unten ausgeführt
+  ☐ Whitespace ist egal
+  ☐ camelCase
+  ☐ Debugging mit b.println()
+
+
+ToDos:
+  ☐ Übergang Übungen -> Postergestaltung
+  ☐ Posterpräsentation
+  ☐ Poster drucken WIE???
+  ☐ Essen WAS???
+
+  ☐ Kleine Einführungspräse mit coolen Beispielen
+  ☐ welche Fotos
+
 
 TiDo:
+  ☐ NASA Fotos Mondlandung an Doro schicken
+
+  ☐ Website
+  ☐ Cheatsheet -> Rect, Line, Ellipse, b.text, for, if else
+  ☐ Wiki
   ☐ Automator Workflow Bilderschleife
   ☐ Download Sublime vorbereiten
   ☐ GoPro auspacken
 
+  ☐ Beispielscript p5 Formen
+  ☐ Lotto-Script optimieren
+
   ☐ Zufall funktioniert nicht bei images
   ☐ Website machen
   ☐ b.text muss auf b.rectMode reagieren
+  ☐ b.printDoc()
+  ☐ b.rtfm("b.rect()")
 
 
 

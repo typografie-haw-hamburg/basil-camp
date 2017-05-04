@@ -7,13 +7,12 @@ function draw() {
   b.units(b.MM);
   b.noFill();
 
-  var xPos = b.width/2;
-  var yPos = b.height/2;
+  for (var i = 0; i < 40; i++) {
+    var randomX = b.random(b.width);
+    var randomY = b.random(b.height);
+    b.ellipse(randomX, randomY, 40, 40);
+  }
 
-  var width = 15;
-  var heigth = 15;
-
-  b.ellipse(xPos,yPos,width,heigth);
 }
 
 b.go();
