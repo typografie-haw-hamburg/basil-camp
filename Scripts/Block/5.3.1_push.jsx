@@ -1,4 +1,4 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
 function draw() {
@@ -6,14 +6,19 @@ function draw() {
   b.clear(b.doc());
   b.units(b.MM);
 
+  var shortNames = [];
+
   // Sitznachbarn
   var neighbors = ["Doro", "Timo", "Heike", "Peter"];
 
-  alert(neighbors);
+  for (var i = 0; i < neighbors.length; i++) {
+    var myNeighbor = neighbors[i];
+    if(myNeighbor.length < 5) {
+      shortNames.push(myNeighbor);
+    }
+  }
 
-  neighbors.push("Almut");
-
-  alert(neighbors);
+  alert(shortNames);
 
 }
 
