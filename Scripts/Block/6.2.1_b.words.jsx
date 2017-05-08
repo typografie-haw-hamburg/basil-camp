@@ -1,6 +1,14 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Text in Wörter und Buchstaben zerlegen
+
+// Erklären:
+// b.selection()
+// b.words()
+// b.characters()
+// .length
+
 function draw() {
 
   var textFrame = b.selection();

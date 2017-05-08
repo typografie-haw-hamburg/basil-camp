@@ -1,6 +1,14 @@
 // @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zufallszahlen auswürfeln
+
+// Erklären:
+// b.random() mit einer Zahl
+// b.random() mit zwei Zahlen
+// b.round()
+// b.floor(), b.ceil()
+
 function draw() {
 
   b.clear(b.doc());

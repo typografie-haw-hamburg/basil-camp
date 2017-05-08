@@ -1,6 +1,13 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Bild skalieren
+
+// Erklären:
+// b.transformImage()
+// b.itemWidth()
+// b.itemHeight()
+
 function draw() {
 
   b.clear(b.doc());

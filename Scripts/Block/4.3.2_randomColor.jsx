@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Kreise mit zufälligen Farben
+
+// Erklären:
+// scope: Unterschied, ob der Farbbefehl außerhalb oder innerhalb des Loops steht
+
 function draw() {
 
   b.clear(b.doc());

@@ -1,6 +1,13 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zeichnet eine Zickzacklinie mit b.beginShape() und b.endShape()
+
+// Erklären:
+// b.beginShape()
+// b.vertex()
+// b.endShape()
+
 function draw() {
 
   b.clear(b.doc());

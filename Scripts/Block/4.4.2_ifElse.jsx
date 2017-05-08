@@ -1,6 +1,8 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zufällige Formen und Farben abhängig von der Kreisgröße
+
 function draw() {
 
   b.clear(b.doc());

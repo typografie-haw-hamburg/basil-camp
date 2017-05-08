@@ -1,6 +1,14 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Wortanfänge markieren
+
+// Erklären:
+// b.bounds()
+// Objekte
+// b.inspect()
+// auf b.bounds()-Eigenschaften zugreifen
+
 function draw() {
 
   var textFrame = b.selection();

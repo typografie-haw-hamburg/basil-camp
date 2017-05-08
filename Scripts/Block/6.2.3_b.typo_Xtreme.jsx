@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Wörter zufällig formatieren
+
+// Erklären:
+// Array von Wörtern durchlaufen
+
 function draw() {
 
   var textFrame = b.selection();

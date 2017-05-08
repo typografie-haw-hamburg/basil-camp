@@ -1,6 +1,15 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zehn skalierte Rects zeichnen mit for-loop
+
+// Erklären:
+// b.opacity()
+// rect in einer Variablen abspeichern
+// b.opacity() bezieht sich nur auf eine Form
+
+// dann: Ü3
+
 function draw() {
 
   b.clear(b.doc());

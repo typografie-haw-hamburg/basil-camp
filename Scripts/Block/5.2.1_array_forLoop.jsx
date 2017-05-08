@@ -1,6 +1,12 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Array durchloopen
+
+// Erklären:
+// Array im for-loop
+// .length für Loop nutzen
+
 function draw() {
 
   b.clear(b.doc());

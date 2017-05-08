@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Kreise in zufälliger Position
+
+// Erklären:
+// zufällige Position auf der Seite
+
 function draw() {
 
   b.clear(b.doc());

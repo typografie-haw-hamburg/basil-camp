@@ -1,6 +1,14 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Text formatieren
+
+// Erklären:
+// b.LOREM
+// b.typo()
+// Texteigenschaften (pointSize, appliedFont etc.)
+// Cheat Sheet
+
 function draw() {
 
   b.clear(b.doc());

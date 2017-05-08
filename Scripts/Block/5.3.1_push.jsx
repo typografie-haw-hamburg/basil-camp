@@ -1,6 +1,12 @@
 // @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Elemente mit bestimmten Eigenschaften sammeln
+
+// Erklären:
+// leeren Array anlegen
+// .push()
+
 function draw() {
 
   b.clear(b.doc());

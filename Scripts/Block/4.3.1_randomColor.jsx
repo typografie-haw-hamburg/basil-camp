@@ -1,6 +1,12 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Kreise mit einer zufälligen Farbe
+
+// Erklären:
+// b.color()
+// b.color() mit Zufallswerten
+
 function draw() {
 
   b.clear(b.doc());

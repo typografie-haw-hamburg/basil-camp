@@ -1,6 +1,13 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zufällige Formen mit User-Abfrage
+
+// Erklären:
+// b.prompt()
+
+// dann: Ü4
+
 function draw() {
 
   b.clear(b.doc());
@@ -9,7 +16,6 @@ function draw() {
   b.rectMode(b.CENTER);
 
   var shapeNumber = prompt("Wie viele Formen sollen gezeichnet werden?", 20);
-
 
   var red = b.color(255, 0, 0);
   var blue = b.color(0, 0, 255);

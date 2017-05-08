@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zehn skalierte Rects zeichnen mit for-loop
+
+// Erklären:
+// b.scale()
+
 function draw() {
 
   b.clear(b.doc());

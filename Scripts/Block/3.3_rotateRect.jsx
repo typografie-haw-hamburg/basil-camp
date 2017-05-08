@@ -1,6 +1,12 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zehn rotierte Rects zeichnen mit for-loop
+
+// Erklären:
+// b.rotate()
+// b.radians()
+
 function draw() {
 
   b.clear(b.doc());

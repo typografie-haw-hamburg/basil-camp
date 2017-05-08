@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zehn Rects zeichnen mit for-loop
+
+// Erklären:
+// i zum Verschieben der Position nutzen
+
 function draw() {
 
   b.clear(b.doc());

@@ -1,6 +1,12 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Variablen
+
+// Erklären:
+// Einer Variablen einen Wert zuweisen
+// Variablen zum Wiederverwenden von Nummern
+
 function draw() {
 
   b.clear(b.doc());

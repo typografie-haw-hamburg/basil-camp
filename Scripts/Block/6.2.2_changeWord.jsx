@@ -1,6 +1,13 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Bestimmtes Wort formatieren
+
+// Erklären:
+// word-Objekt
+// word-Eigenschaft (.length, .contents etc.)
+// bestimmtes Wort in eine Variable speichern
+
 function draw() {
 
   var textFrame = b.selection();

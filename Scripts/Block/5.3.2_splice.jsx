@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Elemente aus Array entfernen
+
+// Erklären:
+// .splice()
+
 function draw() {
 
   b.clear(b.doc());

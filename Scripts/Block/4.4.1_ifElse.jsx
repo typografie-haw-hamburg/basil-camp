@@ -1,6 +1,14 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Kreise mit zwei zufälligen Farben
+
+// Erklären:
+// Farben in Variablen abspeichern
+// if/else
+// if/else Syntax
+// if/else expression (randomNumber < 5)
+
 function draw() {
 
   b.clear(b.doc());

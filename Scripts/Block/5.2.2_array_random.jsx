@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zufälliges Array-Element ausgeben
+
+// Erklären:
+// zufällige, ganze Zahl mit b.floor(array.length)
+
 function draw() {
 
   b.clear(b.doc());

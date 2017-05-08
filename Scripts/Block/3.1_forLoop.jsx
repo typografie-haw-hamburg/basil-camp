@@ -1,6 +1,14 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Hochzählen mit for-loop
+
+// Erklären:
+// for-loop
+// Syntax
+// Zählvariable i
+// b.println()
+
 function draw() {
 
   b.clear(b.doc());

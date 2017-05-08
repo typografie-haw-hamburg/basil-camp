@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Rechnen mit Variablen zum Variieren der Kreise
+
+// Erklären:
+// Rechenoperatoren + - * /
+
 function draw() {
 
   b.clear(b.doc());

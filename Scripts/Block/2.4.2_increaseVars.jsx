@@ -1,6 +1,13 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zeichnet versetzte Rechtecke
+
+// Erklären:
+// Variablen können geändert werden
+// Variablen um bestimmten Wert erhöhen mit yPos = yPos + step
+// Variablen um bestimmten Wert erhöhen mit yPos += step
+
 function draw() {
 
   b.clear(b.doc());
@@ -15,6 +22,8 @@ function draw() {
   yPos = yPos + step;
   b.rect(0, yPos, size, size);
   yPos = yPos + step;
+  b.rect(0, yPos, size, size);
+  yPos += step;
   b.rect(0, yPos, size, size);
   yPos += step;
   b.rect(0, yPos, size, size);

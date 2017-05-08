@@ -1,6 +1,12 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Boxen um Wörter zeichnen
+
+// Erklären:
+// b.bounds mit rect
+// Problem mit Wortumbrüchen
+
 function draw() {
 
   var textFrame = b.selection();

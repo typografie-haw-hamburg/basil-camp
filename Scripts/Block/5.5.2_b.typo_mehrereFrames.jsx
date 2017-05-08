@@ -1,6 +1,13 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Textrahmen unterschiedlich formatieren
+
+// Erklären:
+// Textrahmen in Variable speichern
+
+// dann: Ü5
+
 function draw() {
 
   b.clear(b.doc());

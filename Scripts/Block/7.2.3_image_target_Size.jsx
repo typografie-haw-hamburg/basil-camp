@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Bild auf Zielgröße skalieren
+
+// Erklären:
+// Ausrechnen der Höhe, wenn die Breite bekannt ist
+
 function draw() {
 
   b.clear(b.doc());

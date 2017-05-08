@@ -1,6 +1,14 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Array anlegen und anzeigen
+
+// Erklären:
+// Array erstellen
+// Array ausgeben
+// einzelnes Array-Element ausgeben
+// Länge eines Arrays ausgeben
+
 function draw() {
 
   b.clear(b.doc());

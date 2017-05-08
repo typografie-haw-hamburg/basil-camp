@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Textrahmen erstellen
+
+// Erklären:
+// b.textFrame()
+
 function draw() {
 
   b.clear(b.doc());

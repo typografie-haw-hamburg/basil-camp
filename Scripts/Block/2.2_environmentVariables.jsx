@@ -1,6 +1,11 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Zeichnet Kreise am unteren rechten Seitenrand
+
+// Erklären:
+// b.width + b.height
+
 function draw() {
 
   b.clear(b.doc());

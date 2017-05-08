@@ -1,6 +1,14 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
+// Bestimmte Wörter markieren
+
+// Erklären:
+// b.startsWith
+// Booleans true/false
+
+// dann: Ü6
+
 function draw() {
 
   var textFrame = b.selection();
