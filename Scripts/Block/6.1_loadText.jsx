@@ -1,5 +1,11 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
+
+// Text aus Datei laden
+
+// Erklären:
+// b.loadString()
+// data Ordner
 
 function draw() {
 

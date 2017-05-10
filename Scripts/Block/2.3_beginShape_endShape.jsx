@@ -1,4 +1,4 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
 // Zeichnet eine Zickzacklinie mit b.beginShape() und b.endShape()
@@ -27,6 +27,7 @@ function draw() {
     b.vertex(x2, yTop + 100);
     b.vertex(x1, yTop + 120);
   b.endShape();
+
 }
 
 b.go();

@@ -1,4 +1,4 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
 // Zeichnet Kreise am unteren rechten Seitenrand
@@ -19,6 +19,7 @@ function draw() {
   b.ellipse(xPos, yPos, radius, radius);
   b.ellipse(xPos, yPos, radius * 2, radius * 2);
   b.ellipse(xPos, yPos, radius * 3, radius * 3);
+
 }
 
 b.go();

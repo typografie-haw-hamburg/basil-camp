@@ -1,4 +1,4 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
 // Zeichnet Brüste aus Ellipsen
@@ -23,6 +23,7 @@ function draw() {
   b.fill(210, 126, 106);
   b.ellipse(50, 105, 10, 10);
   b.ellipse(120, 105, 10, 10);
+
 }
 
 b.go();

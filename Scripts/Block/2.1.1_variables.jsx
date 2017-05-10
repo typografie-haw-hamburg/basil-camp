@@ -1,7 +1,7 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
-// Variablen
+// Zeichnet Kreise mit Variablen
 
 // Erklären:
 // Einer Variablen einen Wert zuweisen
@@ -19,6 +19,7 @@ function draw() {
   b.ellipse(xPos, 0, radius, radius);
   b.ellipse(xPos, 70, radius, radius);
   b.ellipse(xPos, 140, radius, radius);
+
 }
 
 b.go();

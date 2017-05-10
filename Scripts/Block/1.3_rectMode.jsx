@@ -1,11 +1,11 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
-  // Zeichnet zwei Rechtecke mit unterschiedlichen rectModes
+// Zeichnet zwei Rechtecke mit unterschiedlichen rectModes
 
-  // Erklären:
-  // b.stroke()
-  // b.rectMode(b.CENTER)
+// Erklären:
+// b.stroke()
+// b.rectMode(b.CENTER)
 
 function draw() {
 

@@ -1,4 +1,4 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
 // Rechnen mit Variablen zum Variieren der Kreise
@@ -19,6 +19,7 @@ function draw() {
   b.ellipse(xPos, yTop, radius, radius);
   b.ellipse(xPos, yTop + 70, radius, radius / 2);
   b.ellipse(xPos, yTop + 140, radius, radius / 3);
+
 }
 
 b.go();
