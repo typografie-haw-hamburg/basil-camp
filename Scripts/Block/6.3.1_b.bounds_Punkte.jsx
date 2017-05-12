@@ -15,7 +15,8 @@ function draw() {
 
   var words = b.words(textFrame);
 
-  var thirdWordBounds = b.bounds(words[2]);
+  var thirdWord = words[2];
+  var thirdWordBounds = b.bounds(thirdWord);
 
   // inspect bounds in console
   b.inspect(thirdWordBounds);

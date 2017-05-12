@@ -13,11 +13,6 @@ function draw() {
 
   var words = b.words(textFrame);
 
-  var thirdWordBounds = b.bounds(words[2]);
-
-  // inspect bounds in console
-  b.inspect(thirdWordBounds);
-
   b.noStroke();
   b.fill(255, 0, 0);
 
