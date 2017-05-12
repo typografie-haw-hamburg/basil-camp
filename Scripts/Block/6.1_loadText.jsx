@@ -11,7 +11,6 @@ function draw() {
 
   b.clear(b.doc());
   b.units(b.MM);
-  b.rectMode(b.CENTER);
 
   // Textdatei muss in einem Ordner names data gesichert sein
   var content = b.loadString("Ahnenforschung.txt");
