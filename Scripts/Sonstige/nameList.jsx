@@ -1,4 +1,4 @@
-﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
+// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
 function draw() {
@@ -10,9 +10,9 @@ function draw() {
 
   var campers = names.length;
 
-  for(var i = 0; i < campers; i++) {
-    var randomIndex = b.floor(b.random(0, names.length));
-    b.text(i + 1 + ". " + names[randomIndex], 15, 20 + i * 10, 80, 10);
+  for(var i = 0; i < campers; i++){
+    var randomIndex = b.floor( b.random(0, names.length) );
+    alert(names[randomIndex]);
     names.splice(randomIndex, 1);
   }
 }
