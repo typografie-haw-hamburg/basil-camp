@@ -25,6 +25,13 @@ function draw() {
     b.rect(xPos, yPos + i * distance, dia, dia);
   }
 
+b.resetMatrix();
+b.rotate(b.radians(17));
+
+var rect = b.rect(xPos, yPos + i * distance, dia, dia);
+
+b.inspect(rect);
+
 }
 
 b.go();
