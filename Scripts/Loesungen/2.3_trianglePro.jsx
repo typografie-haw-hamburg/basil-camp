@@ -19,12 +19,10 @@ function draw() {
   b.fill(myColor);
   b.strokeWeight(4);
 
-
   b.beginShape(b.CLOSE);
-  b.vertex(xOne, yOne);
-  b.vertex(xTwo, yTwo);
-  b.vertex(xThree, yTwo);
-
+    b.vertex(xOne, yOne);
+    b.vertex(xTwo, yTwo);
+    b.vertex(xThree, yTwo);
   b.endShape();
 }
 

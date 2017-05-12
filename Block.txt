@@ -1,10 +1,26 @@
 Einführung
 
+  Vorstellung Doro Timo
+  Vorstellung alle
+
+  Timo
+  Was ist basil
+  Projekte vorstellen
+
+  Doro
+  Was haben wir vor?
+  Was ist das Ziel?
+
+  Organisatorisches (Kaffee)
+  Pause und Mittagspause 13 Uhr
+
+
 Timo
 Sublime Setup
 
 Doro
 Scripte ausführen
+Template
 
 Doro
 B 1.1	b.line

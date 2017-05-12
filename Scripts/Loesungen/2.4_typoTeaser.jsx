@@ -21,18 +21,18 @@ function draw() {
 
   // triangle
   b.beginShape(b.CLOSE);
-  b.vertex(xOne, yOne);
-  b.vertex(xTwo, yTwo);
-  b.vertex(xThree, yTwo);
+    b.vertex(xOne, yOne);
+    b.vertex(xTwo, yTwo);
+    b.vertex(xThree, yTwo);
   b.endShape();
 
 
   // typo teaser
-  var myText = "I LOVE MY TRIANGLE"; 
-  var xPos = 20; 
-  var yPos = 20; 
-  var widthTextframe = 150; 
-  var heightTextframe = 30; 
+  var myText = "I LOVE MY TRIANGLE";
+  var xPos = 20;
+  var yPos = 20;
+  var widthTextframe = 150;
+  var heightTextframe = 30;
 
   b.text(myText, xPos, yPos, widthTextframe, heightTextframe);
 
