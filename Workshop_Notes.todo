@@ -58,22 +58,26 @@ TODORO:
 
 TiDo:
   ☐ Vortrag
-  ☐ Block Scripts --> evtl. Doro mit einbinden
+  ✔ Block Scripts --> evtl. Doro mit einbinden @done (17-05-12 19:57)
   ☐ Konfetti Fix
   ☐ Fotos Ausstellung (für die Einführung) von Heike
-  ☐ Lösungen in die Übungsseiten einpflegen
-  ☐ Website-Script
-  ☐ Lösung für 5.2 einfügen
-  ☐ 6.3 vervollständigen
-  ☐ Ü7 vervollständigen
+  ✔ Lösungen in die Übungsseiten einpflegen @done (17-05-12 19:56)
+  ✔ Website-Script @done (17-05-12 17:00)
+  ✔ Lösung für 5.2 einfügen @done (17-05-12 19:50)
+  ✔ 6.3 vervollständigen @done (17-05-12 18:55)
+  ✔ Ü7 vervollständigen @done (17-05-12 19:56)
 
-  ☐ Lehrer-Rechner einrichten
+  ✔ Lehrer-Rechner einrichten @done (17-05-12 19:47)
 
   ☐ Cheatsheet -> Rect, Line, Ellipse, b.text, for, if else
 
   ☐ Downloads vorbereiten
+    ☐ Cheatsheet hinzufügen
+    ☐ Konfetti-Script zum basiljs.zip hinzufügen
 
-  ☐ Lotto-Script optimieren
+  ☐ Blöcke und Übungen auskommentieren
+
+  ✔ Lotto-Script optimieren @done (17-05-12 16:29)
 
   ☐ b.text muss auf b.rectMode reagieren
 

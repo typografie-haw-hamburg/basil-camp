@@ -21,7 +21,6 @@ function draw() {
 
     b.transformImage(img, xPos, yPos, targetWidth, targetHeight);
     b.addPage();
-
   }
 
 }
