@@ -3,8 +3,8 @@
 
 function draw() {
 
-b.clear(b.doc());
-b.units(b.MM);
+  b.clear(b.doc());
+  b.units(b.MM);
 
   var xOne = b.width/2;
   var yOne = b.height/2;
