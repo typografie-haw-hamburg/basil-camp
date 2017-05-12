@@ -15,7 +15,7 @@ function draw() {
   var shortNames = [];
 
   // Sitznachbarn
-  var neighbors = ["Doro", "Timo", "Heike", "Peter"];
+  var neighbors = ["Hans", "Leonie", "Tina", "Martin"];
 
   for (var i = 0; i < neighbors.length; i++) {
     var myNeighbor = neighbors[i];

@@ -8,7 +8,7 @@ function draw() {
   b.noStroke();
 
 
-// Konfetti
+  // Konfetti
   var darkBlue = b.color(20, 10, 170);
   var green = b.color(20, 200, 0);
   var red = b.color(255, 0, 0);
@@ -20,7 +20,7 @@ function draw() {
   var konfetti = 150;
 
 
-// Text
+  // Text
   b.textFont("Helvetica\tBold");
   var text = "CAMPER PARTY!";
   var width = 180;
@@ -38,7 +38,7 @@ function draw() {
   var characters2 = b.characters(tf2);
 
 
-// style Camper Party
+  // style Camper Party
   for(var j = 0; j < characters.length; j++) {
     var randomBaselineshift = b.random(0.5, 8);
     var randomRotation = b.random(-7, 7);
@@ -50,7 +50,7 @@ function draw() {
   }
 
 
-// style Woooohoooo
+  // style Woooohoooo
   for(var k = 0; k < characters2.length; k++) {
     var randomBaselineshift = b.random(-1, 10);
     var randomRotation = b.random(-12, 12);
@@ -62,23 +62,33 @@ function draw() {
   }
 
 
-// style Konfetti
+  // style Konfetti
   for (var i = 0; i < konfetti; i++) {
+
+    b.pushMatrix();
 
     var x = b.random(b.width);
     var y = b.random(b.height);
     var dia = b.random(4, 6);
     var index = b.floor(b.random(0, colors.length));
 
-    // var randomScaleX = b.random(0.5, 1)
-    // b.scale(randomScaleX, 1)
+    var randomScaleX = b.random(0.2, 10);
+    b.scale(randomScaleX, 1);
 
-    var angle = b.radians(b.random(0, 45));
+    b.popMatrix();
+
+    b.pushMatrix();
+
+    var angle = b.radians(b.random(0, 360));
     b.rotate(angle);
+
 
     b.fill(colors[index]);
     b.ellipse(x, y, dia, dia);
+
+    b.popMatrix();
   }
+
 }
 
 b.go();

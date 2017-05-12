@@ -15,7 +15,7 @@ function draw() {
   b.units(b.MM);
 
   // Sitznachbarn
-  var neighbors = ["Doro", "Timo", "Heike", "Peter"];
+  var neighbors = ["Hans", "Leonie", "Tina", "Martin"];
 
   b.println(neighbors);
 

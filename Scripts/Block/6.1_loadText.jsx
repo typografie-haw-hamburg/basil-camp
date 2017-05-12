@@ -17,10 +17,11 @@ function draw() {
 
   var x = 10;
   var y = 10;
-  var w = b.width - 2*x;
-  var h = b.height - 2*y;
+  var w = b.width - 2 * x;
+  var h = b.height - 2 * y;
 
   b.text(myText, x, y, w, h);
+
 }
 
 b.go();

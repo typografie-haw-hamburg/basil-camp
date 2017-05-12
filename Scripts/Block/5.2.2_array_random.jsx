@@ -12,7 +12,7 @@ function draw() {
   b.units(b.MM);
 
   // Sitznachbarn
-  var neighbors = ["Doro", "Timo", "Heike", "Peter"];
+  var neighbors = ["Hans", "Leonie", "Tina", "Martin"];
 
   var randomIndex = b.floor(b.random(0, neighbors.length));
 
