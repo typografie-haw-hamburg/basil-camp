@@ -13,9 +13,14 @@ function draw() {
   b.units(b.MM);
 
   // Textdatei muss in einem Ordner names data gesichert sein
-  var content = b.loadString("Ahnenforschung.txt");
+  var myText = b.loadString("Ahnenforschung.txt");
 
-  b.text(content, b.width / 2, b.height / 2, 200, 250);
+  var x = 10;
+  var y = 10;
+  var w = b.width - 2*x;
+  var h = b.height - 2*y;
+
+  b.text(myText, x, y, w, h);
 }
 
 b.go();
