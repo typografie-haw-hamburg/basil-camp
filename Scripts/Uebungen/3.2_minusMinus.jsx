@@ -16,13 +16,15 @@ function draw() {
 
   // MINUS
   // i-loop für die x-Achse
-  for(var i = 0; i < 10; i++){
+  for(var i = 0; i < 10; i++) {
 
     // j-loop für die y-Achse
-    for(var j = 0; j < 20; j++){
-      b.rect(xPos + i*distanceBetween, yPos + j*distanceUnder, rectWidth, rectHeight);
+    for(var j = 0; j < 20; j++) {
+      b.rect(xPos + i * distanceBetween, yPos + j * distanceUnder, rectWidth, rectHeight);
     }
+
   }
+
 }
 
 b.go();

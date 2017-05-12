@@ -5,7 +5,7 @@ function draw() {
   b.clear(b.doc());
   b.units(b.MM);
 
-  //Text in Variable laden
+  // Text in Variable laden
   var myText = b.loadString("EinHundKommtSeltenAllein.txt");
 
   var tfX = 10;
@@ -13,11 +13,11 @@ function draw() {
   var tfWidth = 100;
   var tfHeight = 100;
 
-  b.textAlign(Justification.FULLY_JUSTIFIED)
+  b.textAlign(Justification.FULLY_JUSTIFIED);
 
   // Textvariable in Textfelder speichern und verlinken
   var tfA = b.text(myText, tfX, tfY, tfWidth, tfHeight);
-  var tfB = b.text('', tfX, tfY + 150, tfWidth, tfHeight);
+  var tfB = b.text("", tfX, tfY + 150, tfWidth, tfHeight);
   b.linkTextFrames(tfA, tfB);
 
   // Textfelder in Wörter zerlegen
@@ -29,14 +29,14 @@ function draw() {
   var baselineArray = [];
 
   // in dem for loop werden die Koordinaten
-  for(var i = 0; i < myWordsA.length; i++){
+  for(var i = 0; i < myWordsA.length; i++) {
 
-    if( b.startsWith(myWordsA[i].contents, "ich" ) ){
+    if(b.startsWith(myWordsA[i].contents, "ich")) {
 
-      b.typo(myWordsA[i], 'fillColor', b.color(255, 0, 0))
+      b.typo(myWordsA[i], "fillColor", b.color(255, 0, 0));
 
       // word bounds berechnen
-      var wordBounds = b.bounds( myWordsA[i] );
+      var wordBounds = b.bounds(myWordsA[i]);
       var wordMiddle = wordBounds.left + (wordBounds.width / 2);
       var baseline = wordBounds.baseline;
 
@@ -49,7 +49,7 @@ function draw() {
 
   // Linie zeichnen, die Koordinaten der Punkte kommen aus den Arrays
   b.noFill();
-  b.stroke( b.color(255,0,0) );
+  b.stroke(b.color(255, 0, 0));
   b.beginShape();
 
   for (var j = 0; j < wordMiddleArray.length; j++) {

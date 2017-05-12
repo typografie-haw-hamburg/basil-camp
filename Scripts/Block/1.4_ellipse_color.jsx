@@ -8,6 +8,7 @@
 // b.fill()
 // am Ende: basil.js-Reference!
 
+// dann erst: Timo Sublime Shortcuts
 // dann: Ü1
 
 function draw() {

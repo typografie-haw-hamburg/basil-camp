@@ -7,7 +7,7 @@ function draw() {
   b.noFill();
 
 
-  var lines = prompt("Wie viele Linien soll ich zeichnen?", 50)
+  var lines = prompt("Wie viele Linien soll ich zeichnen?", 50);
 
   var x = b.random(0, b.width);
   var y = b.random(0, b.height);
@@ -15,16 +15,16 @@ function draw() {
 
   b.beginShape();
 
-  for(var i = 0; i < lines; i++){
+  for(var i = 0; i < lines; i++) {
     var randomCounter = b.random();
 
-    if(randomCounter >= 0.5){
+    if(randomCounter >= 0.5) {
       b.fill(0);
       b.ellipse(x, y, dia, dia);
       b.noFill();
     }
 
-    b.vertex(x,y)
+    b.vertex(x, y);
     x = b.random(0, b.width);
     y = b.random(0, b.height);
   }

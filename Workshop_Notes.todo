@@ -56,22 +56,25 @@ ToDos:
 
 
 TiDo:
-  ☐ NASA Fotos Mondlandung an Doro schicken
+  ☐ Vortrag
   ☐ Fotos Ausstellung (für die Einführung) von Heike
+  ☐ Lösungen in die Übungsseiten einpflegen
+  ☐ Website-Script
 
-  ☐ Website
+  ☐ Lehrer-Rechner einrichten
+
   ☐ Cheatsheet -> Rect, Line, Ellipse, b.text, for, if else
-  ☐ Wiki
-  ☐ Automator Workflow Bilderschleife
-  ☐ Download Sublime vorbereiten
-  ☐ GoPro auspacken
 
-  ☐ Beispielscript p5 Formen
+  ☐ Downloads vorbereiten
+
   ☐ Lotto-Script optimieren
 
-  ☐ Zufall funktioniert nicht bei images
-  ☐ Website machen
   ☐ b.text muss auf b.rectMode reagieren
+
+
+
+
+  ☐ Zufall funktioniert nicht bei images
   ☐ b.printDoc()
   ☐ b.rtfm("b.rect()")
   ☐ b.close bei b.endShape statt b.beginShape

@@ -8,7 +8,7 @@ function draw() {
 
 
   for (var i = 1; i < 10; i++) {
-    var img = b.image("mirror_" + i + ".png", 0, 0)
+    var img = b.image("mirror_" + i + ".png", 0, 0);
 
     var imgWidth = b.itemWidth(img);
     var imgHeight = b.itemHeight(img);

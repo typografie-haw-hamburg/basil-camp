@@ -1,19 +1,31 @@
-THIS IS OUR BLOCK!
+Einführung
 
+Timo
+Sublime Setup
+
+Doro
+Scripte ausführen
+
+Doro
 B 1.1	b.line
 B 1.2	b.rect
 B 1.3	b.ellipse, b.color
-B 1.4	b.rectMode 
+B 1.4	b.rectMode
 
+Timo
+Sublime Shortcuts
 
+Doro
+Ü1
 
+Timo
 B 2.1	var + b.ellipse
 B 2.2	b.beginShape, b.endShape
-B 2.3	b.width, b.height	
-B 2.4	rechnen mit den variablen?	
+B 2.3	b.width, b.height
+B 2.4	rechnen mit den variablen?
 
 
-
+Doro
 B 3.1	foor loop (print numbers)
 B 3.2	food loop (draw rects)
 B 3.3	b.radians, b.rotate + b.rect
@@ -21,7 +33,7 @@ B 3.4	b.scale
 B 3.5	b.opacity
 
 
-
+Doro
 B 4.1	b.random, b.floor, b.ceil
 B 4.2	random color
 B 4.2.1	random colored tits
@@ -30,7 +42,7 @@ B 4.4	operatoren
 B 4.5	prompt, confirm, b.isNumber
 
 
-
+Timo
 B 5.1	array, length
 B 5.2	array + for loop
 B 5.3.1	b.push
@@ -41,7 +53,7 @@ B 5.6.1	b.typo
 B 5.6.2	b.typo + random
 
 
-
+Doro
 B 6.1	b.loadText
 B 6.2	b.bounds
 B 6.3.1	b.map
@@ -49,6 +61,8 @@ B 6.3.2	b.bounds + b.map + b.typo
 B 6.4	b.startsWith, contents
 
 
+Timo
+B 7 Bilder
 
 YEAH, JO, JO!
 

@@ -11,8 +11,8 @@ function draw() {
 
   var tfX = 10;
   var tfY = 10;
-  var tfWidth = b.width - 2*tfX;
-  var tfHeigth = b.height - 2*tfY;
+  var tfWidth = b.width - 2 * tfX;
+  var tfHeigth = b.height - 2 * tfY;
 
   b.textAlign(Justification.FULLY_JUSTIFIED);
   b.text(content, tfX, tfY, tfWidth, tfHeigth);
