@@ -1,7 +1,7 @@
 ﻿// @includepath "~/Documents/;%USERPROFILE%Documents";
 // @include "basiljs/basil.js";
 
-// Kreise mit zwei zufälligen Farben
+// Kreise mit zwei Farben
 
 // Erklären:
 // Farben in Variablen abspeichern
