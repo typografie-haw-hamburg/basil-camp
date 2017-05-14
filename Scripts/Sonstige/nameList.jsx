@@ -6,7 +6,7 @@ function draw() {
   b.clear(b.doc());
   b.units(b.MM);
 
-  var names = ["Patricia", "Katrin", "Maya", "Christian", "Alexandra", "Ksenia", "Heike", "Andreas", "Mert", "Thao", "Paulina", "Ricardo", "Michael", "Maggi", "Farah", "Doro", "Daniel", "Annika", "Katharina", "Elena", "Ram", "Sarah", "Lisa?", "Cora?"];
+  var names = ["Cora", "Paulina", "Daniel N.", "Elena", "Andreas", "Heike", "Katharina", "Daniel B.", "Annika", "Michael", "Christian", "Ricardo", "Sarah", "Alex", "Thao", "Ram", "Maya", "Ksenia", "Farah"];
 
   var campers = names.length;
 
